@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-13T15:36:32 IST" name="Parameterfacbook" finished-at="2021-11-13T15:36:49 IST" duration-ms="16520">
+    <groups>
+    </groups>
+    <test started-at="2021-11-13T15:36:32 IST" name="parametertest" finished-at="2021-11-13T15:36:49 IST" duration-ms="16520">
+      <class name="testngframe.Parameter_Concepts">
+        <test-method signature="parameter(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testngframe.Parameter_Concepts@59505b48]" started-at="2021-11-13T15:36:32 IST" name="parameter" finished-at="2021-11-13T15:36:48 IST" duration-ms="16449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ramcharan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ram123@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameter -->
+      </class> <!-- testngframe.Parameter_Concepts -->
+    </test> <!-- parametertest -->
+  </suite> <!-- Parameterfacbook -->
+</testng-results>

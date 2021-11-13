@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parameterfacbook">
+	<test name="parametertest">
+	<parameter name="url" value="https://www.facebook.com/"/>
+	<parameter name="email" value="ramcharan"/>
+	<parameter name="password" value="ram123@"/>
+	
+		<classes>
+			<class name="testngframe.Parameter_Concepts">
+			</class>
+		</classes>
+	</test>
+</suite>

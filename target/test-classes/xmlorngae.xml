@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Demo Suite">
+	<test name="OrngeTestlogin">
+		<classes>
+			<class name="testngframe.Orange_website">
+				<methods>
+					<include name="AppLanch" />
+					<include name="Login" />
+					<include name="Welcome" />
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+
+	<test name="OrngeTestwebpagedisplayed">
+		<classes>
+			<class name="testngframe.Orange_website">
+				<methods>
+					<include name="AppLanch" />
+					<include name="Login" />
+					<include name="Navigatetomyinfo" />
+					<include name="MyinfoVerify" />
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+	<test name="Googletesting">
+		<classes>
+			<class name="testngframe.FisrtClassproject">
+				<methods>
+					<include name="Google" />
+					<include name="Facebook" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 

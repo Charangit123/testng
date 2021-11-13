@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- package Class- -Method -->
+<!-- TestSuite> <Tests> <test steps> -->
+
+<suite>
+	<test>
+		<classes>
+			<class>
+				<method>
+					<include>
+					</include>
+				</method>
+			</class>
+		</classes>
+	</test>
+</suite>

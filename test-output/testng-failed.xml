@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parameterfacbook]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="parametertest(failed)">
+    <parameter name="password" value="ram123@"/>
+    <parameter name="url" value="https://www.facebook.com/"/>
+    <parameter name="email" value="ramcharan"/>
+    <classes>
+      <class name="testngframe.Parameter_Concepts">
+        <methods>
+          <include name="parameter" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testngframe.Parameter_Concepts -->
+    </classes>
+  </test> <!-- parametertest(failed) -->
+</suite> <!-- Failed suite [Parameterfacbook] -->
